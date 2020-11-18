@@ -83,7 +83,7 @@ const App = () => {
         <i>Vastauksiasi tähän kyselyyn ei tallenneta mihinkään eikä lähetetä eteenpäin. Vastaa kyselyyn rehellisesti, kysely on vain ja ainoastaan itseäsi varten.</i>
       </p>
       <p>
-        <i>Vastta jokaiseen kysymykseen.</i>
+        <i>Vastaa jokaiseen kysymykseen.</i>
       </p>
       <Form>
         <Form.Group as={Row}>
