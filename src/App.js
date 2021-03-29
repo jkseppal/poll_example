@@ -134,8 +134,8 @@ const App = () => {
         </Form.Group>
       </Form>
       {(q1Points === 0|| q2Points === 0)
-        ? <Button disabled variant="success" onClick={() => setSubmitted(true)}>vastaa</Button>
-        : <Button variant="success" onClick={() => setSubmitted(true)}>vastaa</Button>
+        ? <Button disabled variant="info" onClick={() => setSubmitted(true)}>vastaa</Button>
+        : <Button variant="info" onClick={() => setSubmitted(true)}>vastaa</Button>
       }
       </div> : null}
       <Result />
